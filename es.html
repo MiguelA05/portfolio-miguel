@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miguel Ángel Mira Ortega | Backend Java</title>
+  <meta name="description" content="Portafolio de Miguel Ángel Mira Ortega, estudiante de Ingeniería de Software en Armenia, Colombia. Proyectos de backend con Java y Spring Boot.">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body id="inicio">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header><div class="bar">
+    <nav class="language" aria-label="Idioma"><a href="index.html" lang="en" hreflang="en" aria-label="English">EN</a><a href="es.html" lang="es" hreflang="es" aria-label="Español" aria-current="page">ES</a></nav>
+    <a class="signature" href="#inicio" aria-label="Miguel Ángel Mira Ortega, inicio">miguel<span>@</span>portfolio<span>:~$</span></a>
+    <nav aria-label="Principal"><a href="#works">Proyectos</a><a href="#about">Sobre mí</a></nav>
+  </div></header>
+  <main id="contenido">
+    <section class="intro" aria-labelledby="nombre">
+      <div class="bio">
+      <p class="role">Desarrollador backend junior · Java y Spring Boot</p>
+      <h1 id="nombre">Miguel Ángel<br><em>Mira Ortega.</em></h1>
+      <p class="lead">Estudio Ingeniería de Software en la Universidad del Quindío. Desarrollo APIs para gestionar inventarios, ventas y reservas. Busco prácticas o un puesto junior en desarrollo backend.</p>
+      <div class="actions"><a class="button" href="#works">Ver proyectos ↓</a><a class="outline" href="mailto:miraortega2020@gmail.com">Contactarme</a></div>
+      <div class="links"><a href="https://github.com/MiguelA05">GitHub</a><a href="https://www.linkedin.com/in/miguel-angel-mira-ortega-b57b71249/">LinkedIn</a></div>
+      </div>
+      <figure class="portrait">
+        <img src="assets/miguel-mira.jpg" alt="Retrato de Miguel Ángel Mira Ortega" width="800" height="800" fetchpriority="high">
+        <figcaption>~/perfil/miguel-mira.jpg</figcaption>
+      </figure>
+    </section>
+    <section id="works" aria-labelledby="proyectos">
+      <h2 id="proyectos">Proyectos destacados</h2>
+      <div class="cases">
+        <article><p class="stack">Java · Spring Boot · MongoDB</p>
+          <h3>Tienda Sana</h3>
+          <p>Aplicación para gestionar inventario, ventas y reservas de un restaurante. Su API conserva el historial de los movimientos de inventario.</p>
+          <h4>Cómo se corrige el stock</h4>
+          <p>Cada ajuste añade una transacción. Así se puede rastrear una corrección hasta el movimiento que la originó y consultar el historial anterior.</p>
+          <div class="links"><a href="https://github.com/MiguelA05/tienda-sana-backend">Ver API</a><a href="https://github.com/MiguelA05/tienda-sana-frontend">Ver panel Angular</a></div>
+        </article>
+        <article><p class="stack">Python · FastAPI · RabbitMQ</p>
+          <h3>Servicio de notificaciones</h3>
+          <p>Un servicio recibe eventos de RabbitMQ y los entrega por correo, SMS, WhatsApp o notificaciones push.</p>
+          <h4>Qué ocurre si falla el envío</h4>
+          <p>El mensaje vuelve a una cola de reintentos. Si agota los tres intentos adicionales, pasa a una cola de mensajes fallidos, donde queda disponible para revisión.</p>
+          <div class="links"><a href="https://github.com/MiguelA05/notifications-service-micro">Ver servicio</a></div>
+        </article>
+        <article><p class="stack">Datos · Similitud textual</p>
+          <h3>Bibliometría App</h3>
+          <p>Reúne publicaciones de OpenAlex, PubMed y arXiv para analizar producción científica. Una misma publicación puede aparecer en varias fuentes.</p>
+          <h4>Cómo se depuran los registros</h4>
+          <p>La aplicación compara textos mediante un umbral de similitud configurable. Genera un conjunto unificado y guarda un registro de los duplicados eliminados para revisar las coincidencias.</p>
+          <div class="links"><a href="https://github.com/MiguelA05/bibliometria-app">Ver aplicación en GitHub</a></div>
+        </article>
+      </div>
+      <details><summary>Más proyectos <small>15</small></summary>
+        <ul class="archive">
+          <li><a href="https://github.com/MiguelA05/trip-link">TripLink</a><p>Guía turística colaborativa para Android, desarrollada con Kotlin y Jetpack Compose.</p></li>
+          <li><a href="https://github.com/MiguelA05/egglytics">Egglytics</a><p>Aplicación móvil para registrar producción, ventas e inventario de huevos, con uso sin conexión.</p></li>
+          <li><a href="https://github.com/MiguelA05/edutec-oracle-app">EduTec</a><p>Proyecto de modelado y consultas de bases de datos en Oracle.</p></li>
+          <li><a href="https://github.com/MiguelA05/netflix_data_analysis">Análisis de datos de Netflix</a><p>Notebook de Python para explorar, limpiar y visualizar datos del catálogo.</p></li>
+          <li><a href="https://github.com/MiguelA05/patrones-backend">LaboraUQ</a><p>Backend para validar formularios mediante expresiones regulares.</p></li>
+          <li><a href="https://github.com/MiguelA05/cliente-reto">Reto Micro</a><p>Sistema de microservicios con autenticación JWT, Keycloak y PostgreSQL.</p></li>
+          <li><a href="https://github.com/MiguelA05/api-gateway-micro">API Gateway</a><p>Punto de entrada en Spring Boot que coordina servicios de seguridad y perfiles.</p></li>
+          <li><a href="https://github.com/MiguelA05/automation-tests">Pruebas de automatización</a><p>Pruebas funcionales de API con Cucumber y reportes de resultados con Allure.</p></li>
+          <li><a href="https://github.com/MiguelA05/cicdjenkins">CI/CD con Jenkins</a><p>Configuración de Jenkins como código y scripts de integración con SonarQube.</p></li>
+          <li><a href="https://github.com/MiguelA05/observability">Observabilidad</a><p>Configuración de registros centralizados con Fluentd, Loki y Grafana.</p></li>
+          <li><a href="https://github.com/MiguelA05/scripts-virtual-box">Scripts para VirtualBox</a><p>Colección de scripts para trabajar con VirtualBox.</p></li>
+          <li><a href="https://github.com/MiguelA05/CentroImpresionMiguelMira2">Centro de impresión</a><p>Proyecto académico de un centro de impresión.</p></li>
+          <li><a href="https://github.com/MiguelA05/algoritmos-ordenamiento-busqueda">Algoritmos de ordenamiento y búsqueda</a><p>Implementaciones de algoritmos de ordenamiento y búsqueda.</p></li>
+          <li><a href="https://github.com/MiguelA05/reto-api-rest">Reto API REST</a><p>Ejercicio de desarrollo de una API REST.</p></li>
+          <li><a href="https://github.com/MiguelA05/portfolio-miguel">Portafolio personal</a><p>Código fuente de este sitio web.</p></li>
+        </ul>
+      </details>
+    </section>
+    <section id="about"><h2>Sobre mí</h2>
+      <p>Vivo en Armenia, Colombia, y estudio Ingeniería de Software en la Universidad del Quindío. En EduTec trabajé con modelado relacional y SQL en Oracle. También he explorado cómo probar y entregar APIs con Cucumber, Docker y Jenkins.</p>
+      <p>Me interesan las oportunidades de prácticas y los roles junior de backend o full stack con Java. Mi nivel de inglés es B1.</p>
+      <a class="email" href="mailto:miraortega2020@gmail.com">miraortega2020@gmail.com</a>
+    </section>
+  </main>
+  <footer><div class="bar">Miguel Ángel Mira Ortega<a href="#inicio">Volver al inicio ↑</a></div></footer>
+</body>
+</html>
