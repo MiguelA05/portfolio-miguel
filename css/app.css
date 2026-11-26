@@ -87,3 +87,6 @@ header .signature { margin-right: auto; }
 @media (max-width: 40rem) {
   header nav:last-child { flex-basis: 100%; }
 }
+
+#contact { padding-block-end: clamp(3rem, 6vw, 5rem); }
+#contact .links { line-height: 1.6; row-gap: .75rem; }
