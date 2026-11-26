@@ -37,7 +37,7 @@ p { color: var(--muted); line-height: 1.65; }
 .button { background: var(--accent); color: #092119; }
 .button:hover { background: #acf8ce; color: #092119; }
 .links { flex-wrap: wrap; color: var(--accent); }
-#works, #about { padding-block: 3.5rem; border-top: 1px solid #2c3e35; }
+#works, #about, #contact { padding-block: 3.5rem; border-top: 1px solid #2c3e35; }
 .cases { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
 article { display: flex; flex-direction: column; padding: clamp(1.15rem, 2vw, 2rem); border: 1px solid #33493d; border-radius: .25rem; background: #111e19; }
 article:first-child { background: #14271f; }
